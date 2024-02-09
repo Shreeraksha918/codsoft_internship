@@ -1,0 +1,161 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color:red;
+}
+#navigation {
+    background-color: yellowgreen;
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+}
+.search {
+    display: flex; 
+    padding-left: 6rem;
+    padding-right: 3rem;
+}
+
+.search input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add margin between input and button */
+}
+
+.search button {
+    padding: 8px 15px;
+    background-color: #defa42;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.search button:hover {
+    background-color: #003f7f;
+}
+.logo{
+    text-transform:capitalize;
+    text-shadow: #fff;
+    text-wrap: wrap;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-stretch: condensed;
+    font-size: larger;
+    font-weight: bolder;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    
+   
+}
+
+nav ul li {
+    padding-left:4rem;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#featured-books {
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.books{
+    display:flex;
+    justify-content: space-around;
+}
+.book {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    
+}
+
+.book img {
+    width: 150px;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+
+    
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+a:hover{
+    color: #007bff;
+}

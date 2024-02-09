@@ -1,0 +1,279 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    
+    width: 100%;
+    padding:3px;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left:19rem;
+    margin-left: 20px;
+   
+}
+
+nav ul li {
+    padding-left:4rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    
+}
+
+.home-left {
+    width: 40%;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 60px;
+}
+
+.home-right {
+    width: 60%;
+    text-align: center;
+}
+
+.home-right img {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.name {
+    color: blueviolet;
+    font-size: 3rem;
+}
+
+.btn {
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.view-resume-btn,
+.view-github-btn {
+    background-color: plum;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+.view-resume-btn
+a{
+    text-decoration: none;
+    color: black;
+}
+.view-github-btn
+a{
+    text-decoration: none;
+    color: black;
+}
+.view-resume-btn:hover,
+.view-github-btn:hover {
+    background-color: purple;
+    color: white;
+}
+
+.about {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-bottom: 45px;
+   
+}
+
+.about h2 {
+    color: purple;
+    font-size: 30px;
+    margin-bottom: 20px;
+   align-content: center;
+   padding-left: 32rem;
+   padding-bottom: 2rem;
+}
+
+.about p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.skills {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.skills h2 {
+    color: purple;
+    font-size: 30px;
+    margin-bottom: 20px;
+   align-content: center;
+   padding-left: 32rem;
+   padding-bottom: 2rem;
+}
+
+.skill {
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 20px;
+    padding-left: 4rem;
+}
+
+.skill img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+
+   
+}
+
+.skill p {
+    color: black;
+    font-size: 16px;
+}
+
+.projects {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  
+
+}
+.projects .p1{
+    display: flex;
+}
+.projects h2 {
+    color: purple;
+    font-size: 30px;
+    margin-bottom: 20px;
+   align-content: center;
+   padding-left: 32rem;
+   padding-bottom: 2rem;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding-left: 8rem;
+}
+
+.project img {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    color: rgb(153, 66, 153);
+}
+
+.project p {
+    color: black;
+    text-justify: newspaper;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    color:rgb(153, 66, 153);;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: purple;
+}
+
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+ 
+}
+
+.contact h2 {
+    color: purple;
+    font-size: 30px;
+    margin-bottom: 20px;
+   align-content: center;
+   padding-left: 32rem;
+   padding-bottom: 2rem;
+}
+
+.contact-info p {
+    color:black;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
